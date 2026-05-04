@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+}
+
+#regForm {
+  background-color: #ffffff;
+  margin: 100px auto;
+  font-family: Raleway;
+  padding: 40px;
+  width: 70%;
+  min-width: 300px;
+}
+
+h1 {
+  text-align: center;  
+}
+
+input {
+  padding: 10px;
+  width: 100%;
+  font-size: 17px;
+  font-family: Raleway;
+  border: 1px solid #aaaaaa;
+}
+
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+  background-color: #ff9696;
+} 
+
+/* Hide all steps by default: */
+.tab {
+  display: none;
+}
+
+/* Make circles that indicate the steps of the form: */
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #000000;
+  border: none;  
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+.step.active {
+  opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: #aa0404;
+}
+
+/* .mail {
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 400px;
+  background : 
+  #D8F1F8;
+  border: 1px soild 
+  silver;
+  }
+  .mail h2 {
+  margin-left: 38px;
+  } */
+  /* input {
+  font-size: 20pt;
+  } */
+  /* input:focus, textarea:focus{
+  background-color: 
+  lightyellow;
+  } */
+  /* input submit {
+  font-size: 12pt;
+  } */
+  .rq {
+  color: 
+  #FF0000;
+  font-size: 10pt;
+  }
+
+.ddiivv{
+  height: 0;
+  width: 0;
+  border-left:100px solid transparent;
+  border-right:100px solid transparent;
+  border-top:100px solid green;
+  margin:100px auto;
+}
